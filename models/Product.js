@@ -44,5 +44,4 @@ Product.init({
   modelName: "product",
 });
 
-Product.belongsTo(Category);
 module.exports = Product;

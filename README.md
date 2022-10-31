@@ -1,11 +1,11 @@
 ## Challenge: 
 # Module 13 - Ecommerce Website 
 
-##Description
-#Backend for an ecommerce website 
+## Description
+# Backend for an ecommerce website 
 
-##Contributors
+## Contributors
 # Jen Hano
 
-##Technology used
+## Technology used
 # Mysql, Insomnia, Sequelize, JavaScript, node.js, JSON

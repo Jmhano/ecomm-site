@@ -1,7 +1,6 @@
 const router = require("express").Router();
 const { Product } = require("../../models");
 
-// GET /api/users
 router.get("/", (req, res) => {
   // Access our Product model and run .findAll() method)
   Product.findAll()
@@ -33,7 +32,6 @@ Product.findOne({
 
 // POST /api/products
 router.post('/', (req, res) => {
-    // expects {product_name 'Lernantino', price: '$1.88', stock: '498'}
     Product.create({
       product_name: req.body.product_name,
       price: req.body.price,
